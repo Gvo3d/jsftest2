@@ -19,6 +19,17 @@
                      value="Page1"/>
 </h:form>
 
+<h:form>
+    <h:commandLink action="#{navigationController2.showPage()}" value="Page1">
+        <f:param name="pageId" value="1" />
+    </h:commandLink>
+    <h:commandLink action="#{navigationController2.showPage()}" value="Page2">
+        <f:param name="pageId" value="2" />
+    </h:commandLink>
+    <h:commandLink action="#{navigationController2.showPage()}" value="Home">
+        <f:param name="pageId" value="3" />
+    </h:commandLink>
+</h:form>
 
 </body>
 </html>
