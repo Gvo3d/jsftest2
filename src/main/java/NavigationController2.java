@@ -14,7 +14,7 @@ public class NavigationController2 implements Serializable {
     //condional navigation based on pageId
     //if pageId is 1 show page1.xhtml,
     //if pageId is 2 show page2.xhtml
-    //else show home.xhtml
+    //else show home3.xhtml
     public String showPage(){
         if(pageId == null){
             return "home";
