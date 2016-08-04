@@ -5,7 +5,7 @@
   <artifactId>jsftest3</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>jsftest3 Maven Webapp</name>
+  <name>jsftest4 Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>
@@ -30,7 +30,7 @@
   </dependencies>
 
   <build>
-    <finalName>jsftest3</finalName>
+    <finalName>jsftest4</finalName>
   </build>
 
 </project>
